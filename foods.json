@@ -1,0 +1,122 @@
+[
+{
+	"name": "mango shake",
+	"price": "35",
+	"category": "beverages",
+	"ingredients": "milk, mango, sugar, cherry, almonds, cashew, vailla ice cream",
+	"availability": "yes",
+	"food_id": "FD0001"
+},
+{
+	"name": "cold coffee",
+	"price": "35",
+	"category": "beverages",
+	"ingredients": "milk, coffe, sugar, cherry, almonds, cashew, vailla ice cream",
+	"availability": "yes",
+	"food_id": "FD0002"
+},
+{
+	"name": "chocolate shake",
+	"price": "35",
+	"category": "beverages",
+	"ingredients": "milk, chocolate, sugar, cherry, almonds, cashew, vailla ice cream",
+	"availability": "yes",
+	"food_id": "FD0003"
+},
+{
+	"name": "coca cola",
+	"price": "25",
+	"category": "beverages",
+	"ingredients": "coca cola",
+	"availability": "yes",
+	"food_id": "FD0004"
+},
+{
+	"name": "lemonade",
+	"price": "25",
+	"category": "beverages",
+	"ingredients": "water, lemons, sugar, soda, salt",
+	"availability": "yes",
+	"food_id": "FD0005"
+},
+{
+	"name": "veg burger",
+	"price": "25",
+	"category": "veg",
+	"ingredients": "potatoes, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0006"
+},
+{
+	"name": "veg roll",
+	"price": "25",
+	"category": "veg",
+	"ingredients": "potatoes, carrots, cauliflower, beans, peas, green chilies, coriander, salt, pepper, cumin seeds(jeera), garlic, capsicum, garam masala",
+	"availability": "yes",
+	"food_id": "FD0007"
+},
+{
+	"name": "sandwich",
+	"price": "25",
+	"category": "veg",
+	"ingredients": "potatoes, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0008"
+},
+{
+	"name": "hakka noddles",
+	"price": "30",
+	"category": "veg",
+	"ingredients": "carrots, onion, ginger, green chilies, coriander, soya souce, capsicum, vinegar, salt, pepper, garlic, corn flour",
+	"availability": "yes",
+	"food_id": "FD0009"
+},
+{
+	"name": "paties",
+	"price": "20",
+	"category": "veg",
+	"ingredients": "carrots, onion, ginger, green chilies, coriander, soya souce, capsicum, vinegar, salt, pepper, garlic, corn flour",
+	"availability": "yes",
+	"food_id": "FD0010"
+},
+{
+	"name": "chicken burger",
+	"price": "50",
+	"category": "non-veg",
+	"ingredients": "chicken, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0011"
+},
+{
+	"name": "chicken roll",
+	"price": "50",
+	"category": "non-veg",
+	"ingredients": "chicken, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0012"
+},
+{
+	"name": "omlette",
+	"price": "30",
+	"category": "non-veg",
+	"ingredients": "egg, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0013"
+},
+{
+	"name": "egg roll",
+	"price": "30",
+	"category": "non-veg",
+	"ingredients": "egg, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0014"
+},
+{
+	"name": "egg burger",
+	"price": "35",
+	"category": "non-veg",
+	"ingredients": "egg, carrots, beans, peas, ginger, green chilies, coriander, salt, pepper, bread crumbs, corn flour, rice flour, onion, tomatoes, cabbage",
+	"availability": "yes",
+	"food_id": "FD0015"
+}
+]
