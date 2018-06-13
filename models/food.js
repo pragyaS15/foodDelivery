@@ -20,6 +20,9 @@ var Food = new Schema({
 	},
 	availability: {
 		type: String
+	},
+	image: {
+		type: String
 	}
 }, { versionKey: false });
 
