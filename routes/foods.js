@@ -16,6 +16,7 @@ router.post('/register', function(req, res) {
 	new_food.price = req.body.price;
 	new_food.ingredients = req.body.ingredients;
 	new_food.availability = req.body.availability;
+	new_food.image = req.body.image;
 
 	new_food.save(function(err) {
 		if(err) throw(err);
