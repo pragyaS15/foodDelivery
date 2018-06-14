@@ -11,15 +11,15 @@ router.post('/add', function(req, res) {
 	msg = '';
 	var new_cart = new Cart();
 	new_cart.email = req.body.email;
-	new_cart.quantity = 1;
+	new_cart.quantity = req.body.quantity;
 	new_cart.name = req.body.name;
 	new_cart.category = req.body.category;
 	new_cart.price = req.body.price;
 	new_cart.ingredients = req.body.ingredients;
 	new_cart.availability = req.body.availability;
 	new_cart.image = req.body.image;
-	var d = new Date();
-	new_cart.modifiedOn = d;
+	//var d = new Date();
+	new_cart.modifiedOn = new Date();
 
 	new_cart.save(function(err) {
 		if(err) throw(err);
@@ -60,8 +60,8 @@ router.post('/:id', function(req, res) {
 		item.ingredients = req.body.ingredients;
 		item.availability = req.body.availability;
 		item.image = req.body.image;
-		var d = new Date();
-		item.modifiedOn = d;
+		//var d = new Date();
+		item.modifiedOn = new Date();
 
 		var msg = '';
 
