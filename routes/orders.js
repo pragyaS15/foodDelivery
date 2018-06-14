@@ -36,4 +36,15 @@ router.post('/add', function(req, res) {
 	});
 });
 
+router.get('/all', function(req, res) {
+	let email = req.query.email;
+
+	Cart.find({email: email}, function(err, items) {
+		if(err) throw(err);
+
+		res.json(items);
+		console.log(items.length);
+	});
+});
+
 module.exports = router;
