@@ -13,7 +13,7 @@ var Cart = new Schema({
 		type: Date
 	},
 	quantity: {
-		type: Date
+		type: String
 	},
 	price: {
 		type: String
