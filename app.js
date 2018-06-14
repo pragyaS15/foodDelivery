@@ -13,6 +13,7 @@ mongoose.Promise = global.Promise;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var foodRouter = require('./routes/foods');
+var cartRouter = require('./routes/carts');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/api', usersRouter);
 app.use('/food', foodRouter);
+app.use('/cart', cartRouter);
 
 var mongoDB = config.mongodb.uri;
 
