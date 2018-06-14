@@ -15,6 +15,9 @@ var Cart = new Schema({
 	quantity: {
 		type: String
 	},
+	name: {
+		type: String
+	},
 	price: {
 		type: String
 	},
