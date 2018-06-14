@@ -48,9 +48,9 @@ router.delete('/:id', function(req, res) {
 	});
 });
 
-router.post('/:id', function(req, res) {
-	
-	Cart.find({_id: req.params.id }, function(err, item) {
+router.post('/update', function(req, res) {
+
+	Cart.findOne({_id: req.body._id }, function(err, item) {
 		if(err) throw(err);
 
 		item.name = req.body.name;
