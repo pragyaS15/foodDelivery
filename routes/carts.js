@@ -76,4 +76,25 @@ router.post('/:id', function(req, res) {
 	});
 });
 
+router.update('/:id', function(req, res) {
+	Cart.find({_id: req.params.id }, function(err, item) {
+		if(err) throw(err);
+		
+		item.quantity = req.body.quantity;
+		//var d = new Date();
+		item.modifiedOn = new Date();
+
+		var msg = '';
+
+		item.save(function(err) {
+			if(err) throw(err);
+
+			if(!err) msg = 'Added to cart';
+
+			res.json({message: msg});
+		});
+
+	});
+});
+
 module.exports = router;
