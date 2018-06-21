@@ -48,13 +48,6 @@ router.delete('/:id', function(req, res) {
 	});
 });
 
-router.delete('/all/:email', function(req, res) {
-	Cart.deleteMany({email: req.params.email}, function(err) {
-		if(err) throw(err);
-		res.json({ message: 'Deleted all from cart! for ', req.params.email });
-	});
-});
-
 router.post('/update', function(req, res) {
 
 	Cart.findOne({_id: req.body._id }, function(err, item) {
