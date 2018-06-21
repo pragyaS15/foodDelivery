@@ -48,10 +48,10 @@ router.delete('/:id', function(req, res) {
 	});
 });
 
-router.delete('/:email', function(req, res) {
-	Cart.remove({email: req.params.email}, function(err) {
+router.delete('/all/:email', function(req, res) {
+	Cart.deleteMany({email: req.params.email}, function(err) {
 		if(err) throw(err);
-		res.json({ message: 'Deleted all from cart!' });
+		res.json({ message: 'Deleted all from cart! for ', req.params.email });
 	});
 });
 
